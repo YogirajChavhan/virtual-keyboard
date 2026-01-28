@@ -1,0 +1,244 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.key-board{
+    width : 720px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding : 20px;
+
+}
+#input-field{
+    width : 95%;
+    height : 20px;
+    margin-bottom : 10px;
+    text-align : left;
+    font-size : 16px;
+    border-radius: 8px;
+    caret-color: black;
+}
+button{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+
+  
+    background: #f2f2f2;       
+    color: #222;              
+    border: 1px solid #cfcfcf;
+
+    box-shadow: 0 2px 0 #bdbdbd;
+    transition: all 0.15s ease;
+}
+
+#tab{
+    width : 70px;
+}
+#caps-lock{
+    width : 80px;
+    font-size: small;
+}
+
+#shift-left, #shift-right{
+    width : 100px;
+}
+#backspace{
+    width : 75px;
+    font-size: small;
+}
+#enter{
+    width : 80px;
+    font-size: small;
+}
+#ctrl-left, #ctrl-right, #alt-left, #alt-right , #windows{
+    width : 60px;
+}
+#space{
+    width : 300px;
+}
+@media screen and (max-width:762px) {
+    .key-board{
+        width: 560px;
+    }
+    #input-field{
+        font-size : 14px;   
+    }
+    button{
+        width: 30px;
+        height: 30px;
+        margin: 1px;
+        font-size: 12px;
+        border-radius: 6px;
+    }
+    #tab{
+        width: 50px;
+    }
+    #caps-lock{
+        width: 65px;
+        font-size: 10px;
+    }
+    #shift-left, #shift-right{
+        width : 85px;
+    }
+    #enter{
+        width : 70px;
+        font-size: small;
+    }
+    #backspace{
+        width : 60px;
+        font-size: 10px;
+        align-content: center;
+    }
+    #ctrl-left, #ctrl-right, #alt-left, #alt-right , #windows{
+        width : 45px;
+    }
+    #space{
+        width : 240px;
+    }
+}
+@media screen and (max-width:598px) {
+    .key-board{
+        width: 460px;
+    }
+    button{
+        width: 25px;
+        height: 25px;
+        margin: 1px;
+        font-size: 9px;
+        border-radius: 6px;
+    }
+    #input-field{
+        width : 95%;
+        height : 20px;
+        margin-bottom : 10px;
+        text-align : left;
+        font-size : 12px;
+        border-radius: 8px;
+        caret-color: black;
+    }
+    #tab{
+        width: 40px;
+    }
+    #caps-lock{
+        width: 55px;
+    }
+    #shift-left, #shift-right{
+        width : 65px;
+    }
+    #enter{
+        width : 50px;
+        font-size: small;
+    }
+    #backspace{
+        width : 50px;
+        font-size: 7px;
+    }
+    #ctrl-left, #ctrl-right, #alt-left, #alt-right , #windows{
+        width : 35px;
+    }
+    #space{
+        width : 210px;
+    }
+}
+@media screen and (max-width:514px) {
+    .key-board{
+        width: 400px;
+    }
+    #input-field{
+        font-size : 14px;   
+    }
+    #input-field{
+        width : 95%;
+        height : 20px;
+        margin-bottom : 10px;
+        text-align : left;
+        font-size : 10px;
+        border-radius: 8px;
+        caret-color: black;
+    }
+    button{
+        width: 20px;
+        height: 20px;
+        margin: 0.4px;
+        font-size: 7px;
+        border-radius: 4px;
+    }
+    #tab{
+        width: 30px;
+    }
+    #caps-lock{
+        width: 40px;
+        font-size: 5px;
+    }
+    #shift-left, #shift-right{
+        width : 45px;
+    }
+    #enter{
+        width : 40px;
+        font-size: 7px;
+    }
+    #backspace{
+        width : 35px;
+        font-size: 4px;
+    }
+    #ctrl-left, #ctrl-right, #alt-left, #alt-right , #windows{
+        width : 25px;
+    }
+    #space{
+        width : 180px;
+    }
+}
+@media screen and (max-width:417px) {
+    .key-board{
+        width: 300px;
+    }
+    #input-field{
+        width : 95%;
+        height : 20px;
+        margin-bottom : 7px;
+        text-align : left;
+        font-size : 10px;
+        border-radius: 8px;
+        caret-color: black;
+    }
+    button{
+        width: 15px;
+        height: 15px;
+        margin: 0.4px;
+        font-size: 6px;
+        border-radius: 3px;
+    }
+    #tab{
+        width: 25px;
+    }
+    #caps-lock{
+        width: 35px;
+        font-size: 5px;
+    }
+    #shift-left, #shift-right{
+        width : 40px;
+    }
+    #enter{
+        width : 35px;
+        font-size: 5px;
+    }
+    #backspace{
+        width : 30px;
+        font-size: 4px;
+    }
+    #ctrl-left, #ctrl-right, #alt-left, #alt-right , #windows{
+        width : 20px;
+    }
+    #space{
+        width : 140px;
+    }
+}
+
+
